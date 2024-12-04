@@ -1,9 +1,6 @@
-print("Enter value of a: ")
-a = input()
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
 
-print("Enter value of b: ")
-b = input()
-
-c = int(a) + int(b)
+c = a + b
 
 print(c)
